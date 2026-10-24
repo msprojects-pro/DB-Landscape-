@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-display: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  --color-brand-lime: #8DD75C;
+  --color-brand-lime-hover: #7ec74e;
+  --color-brand-forest: #173D27;
+  --color-brand-forest-dark: #0f2719;
+  --color-brand-forest-light: #205034;
+  --color-brand-charcoal: #202720;
+  --color-brand-soft: #F3F8EF;
+  --color-brand-lightgrey: #F5F6F3;
+  --color-brand-muted: #687168;
+}
+
+:root {
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
