@@ -1,4 +1,9 @@
 import { GalleryProject, ServiceItem } from '../types';
+import heroImg from '../assets/images/hero_paving_driveway_1792850636042.jpg';
+import patioImg from '../assets/images/patio_paving_terrace_1792850636305.jpg';
+import gardenImg from '../assets/images/garden_transformation_1792850636851.jpg';
+import deckingImg from '../assets/images/decking_fencing_garden_1792850637446.jpg';
+import blockPavingImg from '../assets/images/block_paving_detail_1792850637159.jpg';
 
 export const BUSINESS_INFO = {
   name: 'DB Paving & Landscapes',
@@ -23,11 +28,11 @@ export const BUSINESS_INFO = {
 };
 
 export const IMAGES = {
-  hero: '/src/assets/images/hero_paving_driveway_1792850636042.jpg',
-  patio: '/src/assets/images/patio_paving_terrace_1792850636305.jpg',
-  garden: '/src/assets/images/garden_transformation_1792850636851.jpg',
-  decking: '/src/assets/images/decking_fencing_garden_1792850637446.jpg',
-  blockPaving: '/src/assets/images/block_paving_detail_1792850637159.jpg',
+  hero: heroImg,
+  patio: patioImg,
+  garden: gardenImg,
+  decking: deckingImg,
+  blockPaving: blockPavingImg,
 };
 
 export const TRUST_STRIP_ITEMS = [
